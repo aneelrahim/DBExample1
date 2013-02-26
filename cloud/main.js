@@ -12,9 +12,9 @@ exports.storeInfo = function(params, callback) {
   "fields": {
     "name": params.name,
     "work": params.work,
-    "address2": "Bloggsville",
-    "country": "Bloggland",
-    "phone": "555-123456"
+    "address": params.address,
+    "country": params.country,
+    "phone": params.phone
     
   }
 }, function(err, data) {
