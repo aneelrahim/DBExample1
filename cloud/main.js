@@ -14,8 +14,7 @@ exports.storeInfo = function(params, callback) {
     "work": params.work,
     "address": params.address,
     "country": params.country,
-    "phone": params.phone
-    
+    "phone": params.phone    
   }
 }, function(err, data) {
   if (err) {
