@@ -15,10 +15,10 @@ exports.storeInfo = function(params, callback) {
   }
 }, function(err, data) {
   if (err) {
-    console.log("Error " + err)
+    console.log("Error " + err);
   } else {
-    console.log(JSON.stringify(data))
+    console.log(JSON.stringify(data));
   }
   return callback(null, {data: data});
 });
-}
+};
