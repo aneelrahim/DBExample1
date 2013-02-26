@@ -11,7 +11,11 @@ exports.storeInfo = function(params, callback) {
   "type": "myFirstCollection",
   "fields": {
     "name": params.name,
-    "work": params.work
+    "work": params.work,
+    "address2": "Bloggsville",
+    "country": "Bloggland",
+    "phone": "555-123456"
+    
   }
 }, function(err, data) {
   if (err) {
